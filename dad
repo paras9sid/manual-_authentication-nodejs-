@@ -1,0 +1,17 @@
+[33mcommit 50ef385fac04207cd02d4f1129c0fbd4ed18ccb1[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Sidharth Jain <sidharthjainp9@gmail.com>
+Date:   Thu Jun 16 14:58:47 2022 +0530
+
+    setup static files access  for layouts and pages
+
+[33mcommit c633f352c7a307977c37cc2915a01e0c00390ab2[m
+Author: Sidharth Jain <sidharthjainp9@gmail.com>
+Date:   Mon Jun 13 21:15:24 2022 +0530
+
+    Add another route and controller for home
+
+[33mcommit c42939333351eed4742dc12223f665e060d44657[m
+Author: Sidharth Jain <sidharthjainp9@gmail.com>
+Date:   Mon Jun 13 19:52:31 2022 +0530
+
+    Create first git repository and add project to it

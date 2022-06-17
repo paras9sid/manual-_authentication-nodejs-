@@ -7,8 +7,12 @@ const router = express.Router();
 const homeController = require('../controllers/home_controller');
 
 //check if router loaded or not
-console.log("Router Loaded");
+// console.log("Router Loaded");
 
 router.get('/',homeController.home);
+// router.use('/users',require('./users')); // for localhost:8001/users/profile
+router.use('/',require('./users')); // for localhost:8001/profile
+
+
 
 module.exports = router;
