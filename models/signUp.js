@@ -1,24 +1,20 @@
 const mongoose = require('mongoose');
 
 const signupSchema = mongoose.Schema({
-    fName:{
+    name:{
         type:String,
         required:true
     },
-    lName:{
-        type:String,
-        required:true
-    },
-    contact:{
-        type:Number,
-        required:true
-    },
-    userName:{
+    email:{
         type:String,
         required:true,
         unique:true
     },
     password:{
+        type:String,
+        required:true
+    },
+    confirm_password:{
         type:String,
         required:true
     }

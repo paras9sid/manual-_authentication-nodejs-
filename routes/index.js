@@ -11,7 +11,7 @@ const homeController = require('../controllers/home_controller');
 
 router.get('/',homeController.home);
 // router.use('/users',require('./users')); // for localhost:8001/users/profile
-router.use('/',require('./users')); // for localhost:8001/profile
+router.use('/users',require('./users')); // for localhost:8001/profile
 
 
 

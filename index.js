@@ -9,7 +9,7 @@ const expressLayouts = require('express-ejs-layouts');
 //connection to db
 const db = require('./config/mongoose');
 
-app.use(express.urlencoded());
+app.use(express.urlencoded({extended:true})); //extended true for removing deprecateed warning
 app.use(cookieParser());
 
 app.use(express.static('./assets'));//accessing static folder -- assets
